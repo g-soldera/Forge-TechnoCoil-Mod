@@ -1,6 +1,10 @@
 package tech.gscience.technocoilmod;
 
 import com.mojang.logging.LogUtils;
+import tech.gscience.technocoilmod.block.Machines;
+import tech.gscience.technocoilmod.block.ModBlocks;
+import tech.gscience.technocoilmod.block.Ores;
+import tech.gscience.technocoilmod.item.*;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -17,14 +21,25 @@ import org.slf4j.Logger;
 @Mod(TechnoCoilMod.MODID)
 public class TechnoCoilMod
 {
-    // Define mod id in a common place for everything to reference
-    public static final String MODID = "technocoil_1201_001";
-    // Directly reference a slf4j logger
+    public static final String MODID = "technocoil";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public TechnoCoilMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        CreativeTab.CREATIVE_MODE_TAB.register(modEventBus);
+
+        Machines.BLOCKS.register(modEventBus);
+        Ores.BLOCKS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
+        Machines.ITEMS.register(modEventBus);
+        Ores.ITEMS.register(modEventBus);
+        ModBlocks.ITEMS.register(modEventBus);
+
+        RawOres.ITEMS.register(modEventBus);
+        Ingredients.ITEMS.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);

@@ -1,0 +1,13 @@
+{
+  "creativetab.technocoil": "TechnoCoil",
+  "block.technocoil.coilium_ore": "Coilium Ore",
+  "block.technocoil.coilium_ore.description": "A raw coilium ore.",
+  "item.technocoil.raw_coilium": "Raw Coilium",
+  "item.technocoil.raw_coilium.description": "A raw coilium stone.",
+  "block.technocoil.raw_coilium_block": "Raw Coilium Block",
+  "block.technocoil.raw_coilium_block.description": "A raw coilium block.",
+  "item.technocoil.coilium_ingot": "Coilium Ingot",
+  "item.technocoil.coilium_ingot.description": "A refined coilium ingot.",
+  "block.technocoil.coilium_block": "Coilium Block",
+  "block.technocoil.coilium_block.description": "A coilium block."
+}

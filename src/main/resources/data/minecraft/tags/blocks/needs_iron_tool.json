@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "technocoil:coilium_ore",
+    "technocoil:coilium_block",
+    "technocoil:raw_coilium_block"
+  ]
+}
