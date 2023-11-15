@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "technocoil:raw_coilium"
+    },
+    {
+      "item": "technocoil:raw_coilium"
+    },
+    {
+      "item": "technocoil:raw_coilium"
+    },
+    {
+      "item": "technocoil:raw_coilium"
+    },
+    {
+      "item": "technocoil:raw_coilium"
+    },
+    {
+      "item": "technocoil:raw_coilium"
+    },
+    {
+      "item": "technocoil:raw_coilium"
+    },
+    {
+      "item": "technocoil:raw_coilium"
+    },
+    {
+      "item": "technocoil:raw_coilium"
+    }
+  ],
+  "result": {
+    "item": "technocoil:raw_coilium_block",
+    "count": 1
+  }
+}

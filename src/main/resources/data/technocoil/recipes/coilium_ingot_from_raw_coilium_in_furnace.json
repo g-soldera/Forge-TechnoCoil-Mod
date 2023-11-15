@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "technocoil:raw_coilium"
+  },
+  "result":  "technocoil:coilium_ingot",
+  "experience": 0.5,
+  "cookingtime": 400
+}

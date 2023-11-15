@@ -2,12 +2,12 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 9,
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "technocoil:raw_coilium_block"
+          "name": "technocoil:raw_coilium"
         }
       ],
       "conditions": [

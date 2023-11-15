@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "technocoil:coilium_block"
+    }
+  ],
+  "result": {
+    "item": "technocoil:coilium_ingot",
+    "count": 9
+  }
+}
